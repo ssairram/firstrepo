@@ -7,6 +7,7 @@ node
    stage('build')
    {
     echo "build the code"
+    build 'multiple'
    }
    stage('test')
    {
